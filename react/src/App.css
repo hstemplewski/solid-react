@@ -1,0 +1,19 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.App img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.App > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
